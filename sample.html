@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Morning Command Center · SAMPLE · Signal preview</title>
+<style>
+  :root {
+    --bg:#0b0d12; --card:#141822; --card2:#1a2030; --line:#2a3348;
+    --text:#eef2ff; --muted:#93a0b8; --blue:#6ea8ff; --red:#ff7a6e;
+    --amber:#ffb020; --green:#5ee0a0; --violet:#b39cff;
+  }
+  *{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,system-ui,sans-serif;background:radial-gradient(900px 420px at 15% -5%,#1a2744,var(--bg) 60%);color:var(--text)}
+  .wrap{max-width:980px;margin:0 auto;padding:28px 18px 50px}
+  .banner{background:linear-gradient(90deg,#3a2a14,#2a1f10);border:1px solid #6a4a1a;border-radius:14px;padding:12px 14px;margin-bottom:16px;color:var(--amber);font-size:14px;line-height:1.45}
+  .banner strong{color:#ffd27a}
+  .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:flex-end;margin-bottom:18px}
+  .eyebrow{color:var(--muted);font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 6px}
+  h1{margin:0;font-size:30px;font-weight:700}
+  .weather{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;min-width:210px}
+  .weather b{display:block;font-size:18px;margin-bottom:2px}
+  .weather span{color:var(--muted);font-size:13px}
+  .quote{background:linear-gradient(120deg,#182239,#121826);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:16px;color:#d5def2}
+  .quote small{display:block;margin-top:8px;color:var(--muted)}
+  .grid{display:grid;gap:14px}
+  @media(min-width:860px){.grid.main{grid-template-columns:1.35fr .9fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+  .card h2{margin:0 0 12px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .signal{border-color:#3d2f66;background:linear-gradient(160deg,#1a1630,#141822 55%)}
+  .signal h2{color:var(--violet)}
+  .look{background:linear-gradient(145deg,#14261d,#141a22);border-color:#2c4a3a}
+  ol{margin:0;padding-left:18px}
+  ol li{margin:0 0 12px}
+  ol li:last-child{margin:0}
+  .why{color:var(--muted);font-size:13px;margin-top:3px}
+  .row{display:grid;grid-template-columns:auto 1fr;gap:10px;background:var(--card2);border-radius:12px;padding:11px;margin:0 0 8px}
+  .tag{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:4px 8px;height:fit-content}
+  .waiting{background:rgba(255,176,32,.14);color:var(--amber)}
+  .action{background:rgba(255,122,110,.14);color:var(--red)}
+  .fyi{background:rgba(147,160,184,.14);color:var(--muted)}
+  .hazard{background:rgba(255,122,110,.16);color:var(--red)}
+  .outage{background:rgba(255,176,32,.16);color:var(--amber)}
+  .tools{background:rgba(179,156,255,.16);color:var(--violet)}
+  .money{background:rgba(94,224,160,.14);color:var(--green)}
+  .rumor{background:rgba(147,160,184,.2);color:#c5cfe3}
+  .row a{color:var(--text);text-decoration:none;font-weight:600}
+  .row a:hover{color:var(--blue);text-decoration:underline}
+  .meta{color:var(--muted);font-size:12px;margin-top:3px}
+  .acct{margin:14px 0 8px;color:var(--blue);font-size:13px;font-weight:600}
+  .acct:first-child{margin-top:0}
+  .empty{color:var(--muted);font-size:14px;margin:0}
+  .cal,.news{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+  .cal:last-child,.news:last-child{border:0}
+  .time{min-width:96px;color:var(--green);font-weight:650;font-size:13px}
+  .news a{color:var(--text);text-decoration:none}
+  .news a:hover{color:var(--blue);text-decoration:underline}
+  footer{margin-top:18px;text-align:center;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="banner">
+      <strong>SAMPLE PREVIEW</strong> — how weekday mornings look with Signal snippets folded in.
+      Fake demo bullets below (not live intel). Full Signal brief stays in Signal’s chat; the board only gets 3–6 snippets.
+      Live board remains untouched: <a href="./" style="color:#ffd27a">index</a>
+    </div>
+    <div class="top">
+      <div>
+        <p class="eyebrow">Morning Command Center · Sample</p>
+        <h1>Monday, Sep 28</h1>
+      </div>
+      <div class="weather">
+        <b>Ojai · 88° / 62°</b>
+        <span>Sunny · light wind · 0% rain</span>
+      </div>
+    </div>
+    <div class="quote">
+      “Clarity is kindness.”
+      <small>— sample quote</small>
+    </div>
+    <div class="grid main">
+      <section class="card">
+        <h2>Attack the day</h2>
+        <ol>
+          <li><strong>Protect Discovery 9:30–11:30</strong><div class="why">Only hard block. Everything else builds around it.</div></li>
+          <li><strong>Clear Front Gate Will Call if still open</strong><div class="why">Last 4 + pickup name — sample carryover from Friday.</div></li>
+          <li><strong>Send any ready waiting nudges</strong><div class="why">Confirm drafts, then send yourself.</div></li>
+        </ol>
+      </section>
+      <section class="card look">
+        <h2>Look forward to</h2>
+        <p style="margin:0;font-size:15px;line-height:1.5"><strong>Intaker first round</strong> — Fri Oct 9, 11:30–12:00 PT with Alex Griffin. Conferencing details on confirmation.</p>
+      </section>
+    </div>
+    <div class="grid" style="margin-top:14px">
+      <section class="card signal">
+        <h2>Signal</h2>
+        <div class="row"><span class="tag hazard">Hazard</span><div><a href="https://www.weather.gov/" target="_blank" rel="noopener">NWS Red Flag Warning — Ventura County foothills through Mon evening</a><div class="meta">So what: high fire weather; skip brush clearing / outdoor spark work until it lifts.</div></div></div>
+        <div class="row"><span class="tag outage">Outage</span><div><a href="https://www.sce.com/outage" target="_blank" rel="noopener">SCE planned maintenance window — Upper Ojai area overnight</a><div class="meta">So what: if you’re on that feeder, charge laptop/phone before bed.</div></div></div>
+        <div class="row"><span class="tag tools">AI / tools</span><div><a href="https://www.anthropic.com/news" target="_blank" rel="noopener">Claude API usage guidance updated (official)</a><div class="meta">So what: skim if you ship anything on Claude this week; no action if you’re not building.</div></div></div>
+        <div class="row"><span class="tag money">Money</span><div><a href="https://www.federalreserve.gov/" target="_blank" rel="noopener">Fed speakers calendar denser this week</a><div class="meta">So what: expect rate-path noise; ignore unless you’re trading the headlines.</div></div></div>
+        <div class="row"><span class="tag rumor">Rumor</span><div><a href="https://x.com/" target="_blank" rel="noopener">Unverified chatter: regional ISP peering blip overnight</a><div class="meta">So what: labeled rumor — don’t change plans until an ISP status page confirms.</div></div></div>
+        <p class="meta" style="margin-top:10px">Snippets only · full brief lives in Signal’s chat</p>
+      </section>
+    </div>
+    <div class="grid" style="margin-top:14px">
+      <section class="card">
+        <h2>Overnight inbox</h2>
+        <div class="acct">ethanperalta8@gmail.com · master</div>
+        <div class="row"><span class="tag action">Action</span><div><a href="#" onclick="return false">Sample Action thread</a><div class="meta">Demo row — real mornings show labeled threads + draft links</div></div></div>
+        <div class="row"><span class="tag waiting">Waiting</span><div><a href="#" onclick="return false">Sample Waiting chase</a><div class="meta">Demo row — nudge draft ready when silent 2+ biz days</div></div></div>
+        <div class="acct">ethanjperalta@gmail.com · personal/work</div>
+        <p class="empty">Nothing Action/Waiting overnight.</p>
+        <div class="acct">epthinks@gmail.com · AI</div>
+        <p class="empty">Nothing Action/Waiting overnight.</p>
+      </section>
+      <div class="grid main">
+        <section class="card">
+          <h2>Today’s calendar</h2>
+          <div class="cal"><div class="time">9:30–11:30</div><div><strong>Discovery calls (goal: 25)</strong><div class="meta">personal calendar</div></div></div>
+          <div class="cal"><div class="time">Fri Oct 9 · 11:30</div><div><strong>Alex Griffin — Intaker First Round</strong><div class="meta">Upcoming · personal calendar</div></div></div>
+          <p class="empty" style="margin-top:10px">Master calendar: clear.</p>
+        </section>
+        <section class="card">
+          <h2>Top news</h2>
+          <p class="empty" style="margin-bottom:8px">Generic headlines stay light. Local / hazard / outage / tools / money priority lives under <strong style="color:#b39cff">Signal</strong>.</p>
+          <div class="news"><a href="https://www.ojaivalleynews.com/" target="_blank" rel="noopener">Ojai Valley News — local roundup (placeholder)</a></div>
+          <div class="news"><a href="https://www.reuters.com/" target="_blank" rel="noopener">Reuters world brief (placeholder)</a></div>
+        </section>
+      </div>
+    </div>
+    <footer>Ethan · SAMPLE preview · Signal section demo · <a href="https://epthinks-art.github.io/morning-command-center/sample.html" style="color:#6ea8ff">this page</a></footer>
+  </div>
+</body>
+</html>
