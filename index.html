@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Morning Command Center · Fri Sep 25</title>
+<title>Morning Command Center · Mon Sep 28</title>
 <style>
   :root {
     --bg:#0b0d12; --card:#141822; --card2:#1a2030; --line:#2a3348;
     --text:#eef2ff; --muted:#93a0b8; --blue:#6ea8ff; --red:#ff7a6e;
-    --amber:#ffb020; --green:#5ee0a0;
+    --amber:#ffb020; --green:#5ee0a0; --violet:#b39cff;
   }
   *{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,system-ui,sans-serif;background:radial-gradient(900px 420px at 15% -5%,#1a2744,var(--bg) 60%);color:var(--text)}
   .wrap{max-width:980px;margin:0 auto;padding:28px 18px 50px}
@@ -24,6 +24,8 @@
   @media(min-width:860px){.grid.main{grid-template-columns:1.35fr .9fr}}
   .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
   .card h2{margin:0 0 12px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .signal{border-color:#3d2f66;background:linear-gradient(160deg,#1a1630,#141822 55%)}
+  .signal h2{color:var(--violet)}
   .look{background:linear-gradient(145deg,#14261d,#141a22);border-color:#2c4a3a}
   ol{margin:0;padding-left:18px}
   ol li{margin:0 0 12px}
@@ -35,6 +37,11 @@
   .action{background:rgba(255,122,110,.14);color:var(--red)}
   .fyi{background:rgba(147,160,184,.14);color:var(--muted)}
   .optional{background:rgba(110,168,255,.12);color:var(--blue)}
+  .finance{background:rgba(94,224,160,.14);color:var(--green)}
+  .hazard{background:rgba(255,122,110,.16);color:var(--red)}
+  .outage{background:rgba(255,176,32,.16);color:var(--amber)}
+  .tools{background:rgba(179,156,255,.16);color:var(--violet)}
+  .money{background:rgba(94,224,160,.14);color:var(--green)}
   .row a{color:var(--text);text-decoration:none;font-weight:600}
   .row a:hover{color:var(--blue);text-decoration:underline}
   .meta{color:var(--muted);font-size:12px;margin-top:3px}
@@ -53,65 +60,79 @@
   <div class="wrap">
     <div class="top">
       <div>
-        <p class="eyebrow">Morning Command Center · Live</p>
-        <h1>Friday, Sep 25</h1>
+        <p class="eyebrow">Morning Command Center · Live · Ojai / Ventura County</p>
+        <h1>Monday, Sep 28</h1>
       </div>
       <div class="weather">
-        <b>Ojai · 84° / 70°</b>
-        <span>Sunny · light wind · ~0% rain</span>
+        <b>Ojai · 82° / 59°</b>
+        <span>Sunny · Wind Advisory mountains tonight · AQ Good</span>
       </div>
     </div>
     <div class="quote">
-      “Don’t wait. The time will never be just right.”
-      <small>— Napoleon Hill</small>
+      “Be regular and orderly in your life, so that you may be violent and original in your work.”
+      <small>— Gustave Flaubert</small>
     </div>
     <div class="grid main">
       <section class="card">
         <h2>Attack the day</h2>
         <ol>
-          <li><strong>Protect Discovery 9:30–11:30</strong><div class="why">Only hard block. Everything else builds around it.</div></li>
-          <li><strong>Reply Front Gate Will Call</strong><div class="why">Bianca needs last 4 of the card + pickup name. Draft ready — fill last 4, then confirm &amp; send.</div></li>
-          <li><strong>Send Krazyhousecustoms return nudge</strong><div class="why">Silent since Sep 19. Nudge draft ready — confirm then send.</div></li>
+          <li><strong>Confirm Front Gate Will Call before Wed flight</strong><div class="why">Last 4 + pickup name sent Sun. Watch for Bianca reply — ACL wristbands are the trip hard dependency.</div></li>
+          <li><strong>Send Krazyhousecustoms return nudge</strong><div class="why">Silent since Sep 19. Draft ready — confirm &amp; send.</div></li>
+          <li><strong>Close EverCommerce incomplete steps (or skip)</strong><div class="why">Reminder overnight for Automation &amp; AI Specialist — GTM. Finish or abandon before Austin window.</div></li>
         </ol>
       </section>
       <section class="card look">
         <h2>Look forward to</h2>
-        <p style="margin:0;font-size:15px;line-height:1.5"><strong>Big Bear Summit Bike Park</strong> — tomorrow (Sat Sep 26). MTB lift + downhill rental locked. Bring ID + card for rental waiver at Adventure Academy.</p>
-        <p class="meta" style="margin-top:10px">Intaker reply parked until Mon Sep 28 (your call).</p>
+        <p style="margin:0;font-size:15px;line-height:1.5"><strong>Austin trip starts Wed Sep 30</strong> — Southwest WN 1416 BUR→AUS (BIGXT4), then ACL Weekend One Oct 2–4 at Zilker. Intaker first round Fri Oct 9 11:30 PT with Alex Griffin after you’re back.</p>
+      </section>
+    </div>
+    <div class="grid" style="margin-top:14px">
+      <section class="card signal">
+        <h2>Signal</h2>
+        <div class="row"><span class="tag hazard">Hazard</span><div><a href="https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=LOX&amp;wwa=wind+advisory" target="_blank" rel="noopener">Wind Advisory Ventura mountains tonight 6 PM–6 AM Tue (gusts 30–45 mph)</a><div class="meta">Secure outdoor items; caution mountain roads.</div></div></div>
+        <div class="row"><span class="tag hazard">Hazard</span><div><a href="https://www.weather.gov/lox/" target="_blank" rel="noopener">High Surf + Coastal Flood Advisories Ventura beaches through Tue 5 PM</a><div class="meta">Skip beach/rocks.</div></div></div>
+        <div class="row"><span class="tag outage">Local</span><div><a href="https://www.vcapcd.org/forecast-report/" target="_blank" rel="noopener">Prescribed pile burn today Villanova Prep (Ojai); possible smoke; AQ Good</a><div class="meta">Local smell near Villanova — not a wildfire.</div></div></div>
+        <div class="row"><span class="tag outage">Ops</span><div><a href="https://www.githubstatus.com/" target="_blank" rel="noopener">GitHub operational; no major cloud outages overnight</a><div class="meta">Build/deploy path clear.</div></div></div>
+        <div class="row"><span class="tag tools">AI / tools</span><div><a href="https://www.anthropic.com/claude-opus-5-5" target="_blank" rel="noopener">Claude Opus 5.5 + Grok 4.7 shippable this week</a><div class="meta"><a href="https://x.ai/news/grok-4-7" target="_blank" rel="noopener" style="color:#b39cff;font-weight:600">x.ai/news/grok-4-7</a></div></div></div>
+        <div class="row"><span class="tag money">Money</span><div><a href="https://gasprices.aaa.com/state-gas-price-averages/" target="_blank" rel="noopener">CA gas $6.37 AAA</a><div class="meta">Budget driving before BUR departure.</div></div></div>
+        <p class="meta" style="margin-top:10px">Snippets only · pack received ~7:55 AM PT</p>
       </section>
     </div>
     <div class="grid" style="margin-top:14px">
       <section class="card">
         <h2>Overnight inbox</h2>
         <div class="acct">ethanperalta8@gmail.com · master</div>
-        <div class="row"><span class="tag action">Action</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877246463126261288" target="_blank" rel="noopener">Front Gate — Will Call setup (ticket 81902293)</a><div class="meta">Bianca: reply with last 4 + pickup name · draft ready · labeled 1-Action</div></div></div>
+        <div class="row"><span class="tag action">Action</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877533265525659673" target="_blank" rel="noopener">EverCommerce — incomplete application steps</a><div class="meta">Automation &amp; AI Specialist — GTM · labeled 1-Action · finish online (no draft)</div></div></div>
         <div class="row"><span class="tag waiting">Waiting</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1876265189553057365" target="_blank" rel="noopener">Krazyhousecustoms — Order #HNWQG return</a><div class="meta">Silent since Sep 19 · nudge draft ready · labeled 2-Waiting</div></div></div>
-        <div class="row"><span class="tag waiting">Waiting</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1876993969552091734" target="_blank" rel="noopener">ACL Order #180000593 — Gina will-call path</a><div class="meta">Ball with Front Gate now · chase is the Bianca reply above</div></div></div>
-        <div class="row"><span class="tag fyi">FYI</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877313460761921190" target="_blank" rel="noopener">USPS — 2 mailpieces arriving today</a><div class="meta">Digest for Fri 9/25</div></div></div>
-        <div class="row"><span class="tag optional">Optional</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877134457511598923" target="_blank" rel="noopener">Intaker — Alex Griffin interview</a><div class="meta">Parked until Mon Sep 28 · still labeled 1-Action</div></div></div>
+        <div class="row"><span class="tag waiting">Waiting</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877246463126261288" target="_blank" rel="noopener">Front Gate — Will Call setup (ticket 81902293)</a><div class="meta">Ethan replied Sun with last 4 + name · moved to 2-Waiting · watch for Bianca</div></div></div>
+        <div class="row"><span class="tag waiting">Waiting</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1876993969552091734" target="_blank" rel="noopener">ACL Order #180000593 — Gina will-call path</a><div class="meta">Ball with Front Gate · trip Wed</div></div></div>
+        <div class="row"><span class="tag waiting">Waiting</span><div><span>Job apps overnight: EverHealth, MeridianLink, Planhat, RxSight, Jobgether, qlub, CommanderAI</span><div class="meta">Confirmations received · labeled 2-Waiting</div></div></div>
+        <div class="row"><span class="tag fyi">FYI</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877584340201156846" target="_blank" rel="noopener">Artemis Midtown — pool closes Wed Sep 30</a><div class="meta">Same day as Austin departure</div></div></div>
+        <div class="row"><span class="tag fyi">FYI</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877546769279391519" target="_blank" rel="noopener">Tonya — Ethan work @ sweet one Tue Sep 29 10:30–2:00</a><div class="meta">Accepted on master calendar · pack lunch</div></div></div>
+        <div class="row"><span class="tag optional">Optional</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877588671867894278" target="_blank" rel="noopener">LinkedIn — AE Construction Tech at Alfa AI (up to $120K)</a><div class="meta">Job alert · stretch/optional</div></div></div>
+        <div class="row"><span class="tag fyi">FYI</span><div><a href="https://mail.google.com/mail/?authuser=ethanperalta8@gmail.com#all/thread-f:1877584689483063410" target="_blank" rel="noopener">USPS — 1 mailpiece arriving today</a><div class="meta">Digest for Mon 9/28</div></div></div>
         <div class="acct">ethanjperalta@gmail.com · personal/work</div>
-        <p class="empty">Nothing Action/Waiting overnight.</p>
+        <p class="empty">Nothing Action/Waiting overnight (1 promo only).</p>
         <div class="acct">epthinks@gmail.com · AI</div>
-        <p class="empty">Nothing Action/Waiting overnight.</p>
+        <div class="row"><span class="tag finance">Finance</span><div><a href="https://mail.google.com/mail/?authuser=epthinks@gmail.com#all/thread-f:1877557099986530048" target="_blank" rel="noopener">Claude Pro subscription canceled</a><div class="meta">Access expires Oct 15 · note only (no master Finance label on AI inbox)</div></div></div>
       </section>
       <div class="grid main">
         <section class="card">
           <h2>Today’s calendar</h2>
-          <div class="cal"><div class="time">9:30–11:30</div><div><strong>Discovery calls (goal: 25)</strong><div class="meta">ethanjperalta calendar</div></div></div>
-          <div class="cal"><div class="time">Sat all day</div><div><strong>Big Bear — Mountain Biking (Snow Summit)</strong><div class="meta">Tomorrow · itinerary 426356394</div></div></div>
-          <p class="empty" style="margin-top:10px">Master calendar: clear.</p>
+          <p class="empty" style="margin-bottom:10px">Personal calendar: clear today.</p>
+          <div class="cal"><div class="time">Tue 10:30–2:00</div><div><strong>Ethan work @ sweet one (pack lunch)</strong><div class="meta">master · Tonya · Meet inw-tkgi-ahq</div></div></div>
+          <div class="cal"><div class="time">Wed 7:10 AM</div><div><strong>Southwest WN 1416 · BUR → AUS</strong><div class="meta">BIGXT4 · check-in opens Tue · Austin trip Sep 30–Oct 6</div></div></div>
+          <div class="cal"><div class="time">Oct 2–4</div><div><strong>ACL Festival Weekend One</strong><div class="meta">Zilker · 3-Day GA · Will Call replacements</div></div></div>
+          <div class="cal"><div class="time">Fri Oct 9 11:30</div><div><strong>Alex Griffin / Intaker first round</strong><div class="meta">personal · 30 min</div></div></div>
         </section>
         <section class="card">
-          <h2>Top news</h2>
-          <div class="news"><a href="https://www.reuters.com/world/europe/us-proposes-trilateral-meeting-with-ukraine-russia-uae-zelenskiy-says-2026-09-25/" target="_blank" rel="noopener">US proposes UAE trilateral with Ukraine and Russia</a></div>
-          <div class="news"><a href="https://www.bbc.com/news/articles/cxq63dqp93n1o" target="_blank" rel="noopener">Trump–Xi state dinner: both tout friendship, little progress yet</a></div>
-          <div class="news"><a href="https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount" target="_blank" rel="noopener">Saudi allies mobilize as Houthi attacks mount</a></div>
-          <div class="news"><a href="https://www.ojaivalleynews.com/news/county/ventura-county-s-vision-zero-hopes-to-eliminate-road-incidents/article_23ad0a0c-e68e-4b8d-a5e0-defafc1adfa8.html" target="_blank" rel="noopener">Ventura County Vision Zero road-safety plan (Ojai Valley)</a></div>
-          <div class="news"><a href="https://www.ojaivalleynews.com/news/elections/district-1-city-council-candidates-share-vision-for-ojai-s-future/article_1a4d5afc-5b3e-4240-9aa1-ecf9816026fc.html" target="_blank" rel="noopener">Ojai District 1 candidates · forum Mon Sep 28</a></div>
+          <h2>Weather / local</h2>
+          <div class="news"><strong>Ojai Valley</strong> — High ~82° / low ~59°, sunny. Wind Advisory mountains tonight 6 PM–Tue 6 AM (gusts 30–45). High Surf / Coastal Flood through Tue 5 PM. Villanova Prep pile burn today — possible smoke; county AQ Good.</div>
+          <div class="news" style="margin-top:8px"><a href="https://www.vcapcd.org/forecast-report/" target="_blank" rel="noopener">VCAPCD burn + AQ forecast</a></div>
         </section>
       </div>
     </div>
-    <footer>Ethan · Morning Command Center · weekdays ~8:00 AM PT · <a href="https://epthinks-art.github.io/morning-command-center/" style="color:#6ea8ff">live board</a></footer>
+    <footer>Ethan · Morning Command Center · daily ~7:57 AM PT · <a href="https://epthinks-art.github.io/morning-command-center/" style="color:#6ea8ff">live board</a></footer>
   </div>
 </body>
 </html>
