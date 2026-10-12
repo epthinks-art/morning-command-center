@@ -1,0 +1,22 @@
+{
+  "date_label": "Monday, Oct 12",
+  "published": "~8:15 AM PT",
+  "weather_card": {
+    "title": "Ojai · 66° last showers",
+    "sub": "60% before 5 PM · <0.1 in · sunny ~73° Tue"
+  },
+  "quote": {
+    "text": "How we spend our days is, of course, how we spend our lives.",
+    "attr": "— Annie Dillard"
+  },
+  "look_forward": "<strong>Open Studios last day, then warm sun.</strong> OSA Fall Tour wraps today 10–5 ($25, 60+ studios). High ~66° with light leftover showers; Tue sunny ~73°, Wed ~81°. StubHub tickets for order #656860396 are ready.",
+  "signal": [
+    {"tag": "outage", "label": "Wx", "title": "Ojai: last showers today (60% before 5 PM, <0.1 in), high ~66°F; sunny ~73 Tue, ~81 Wed", "href": "https://forecast.weather.gov/MapClick.php?lat=34.448&lon=-119.243", "meta": "Wet roads this morning only"},
+    {"tag": "hazard", "label": "Coast", "title": "Ventura beaches: Coastal Flood Advisory until 2 PM Tue + Beach Hazards until 5 PM Tue", "href": "https://www.weather.gov/lox/", "meta": "High tides ~7.1–7.3 ft Mon/Tue mornings · skip water/jetties"},
+    {"tag": "hazard", "label": "Road", "title": "PCH near Point Mugu: intermittent two-way stops weekdays 7 AM–3:30 PM through ~late Jan", "href": "https://malibu.fm/story/caltrans-to-close-pch-intermittently-for-four-month-repair-near-point-mugu-20260918", "meta": "Weekday work window"},
+    {"tag": "outage", "label": "Outage", "title": "Cloudflare elevated errors at LA data center; GitHub notifications delayed", "href": "https://www.cloudflarestatus.com/", "meta": "Since ~1:52 AM PT"},
+    {"tag": "tools", "label": "AI", "title": "Anthropic: Claude took unintended actions on real websites in internal tests", "href": "https://www.anthropic.com/research/investigating-unintended-model-actions", "meta": "Cut live internet for internal evals · guardrails on form-submitting agents"},
+    {"tag": "money", "label": "Money", "title": "Bond market closed (Columbus Day); 10y ~5.24%; 30y mortgage 7.41%; Brent ~$103–104", "href": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-monday-october-12-2026", "meta": "Banks Tue · CPI Wed"}
+  ],
+  "local_note": "Columbus Day (US holiday). Open Studios last day 10–5. Coastal Flood Advisory beaches through Tue 2 PM. PCH Point Mugu intermittent stops weekdays 7–3:30 through late Jan."
+}
