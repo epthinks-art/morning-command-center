@@ -1,0 +1,59 @@
+{
+  "date_label": "Thursday, Oct 15",
+  "published": "~8:25 AM PT",
+  "weather_card": {
+    "title": "Ojai · 92° sunny",
+    "sub": "Clear tonight ~63° · ~93° Fri · Red Flag thru Sat"
+  },
+  "quote": {
+    "text": "The secret of getting ahead is getting started.",
+    "attr": "— Mark Twain"
+  },
+  "look_forward": "<strong>Dodger Stadium tonight — then Ojai Day Saturday.</strong> NLCS Game 4 vs Brewers now 5 PM PT (FS1). Leave ~2:30. Saturday Oct 17 is Ojai Day, 10 AM–5 PM on Ojai Ave + Libbey Park. Jessie Morning Coffee is Nov 18 at Soule Park.",
+  "signal": [
+    {
+      "tag": "fyi",
+      "label": "Pack",
+      "title": "Today’s Signal pack wasn’t received (latest on file dated Mon Oct 12)",
+      "href": "",
+      "meta": "Items below re-checked by board run only"
+    },
+    {
+      "tag": "outage",
+      "label": "Wx",
+      "title": "Ojai: sunny ~92° today; clear ~63° tonight; ~93° Fri with ENE 20–25 mph",
+      "href": "https://forecast.weather.gov/MapClick.php?lat=34.448&lon=-119.242",
+      "meta": "NWS point forecast · dry Santa Ana pattern into the weekend"
+    },
+    {
+      "tag": "hazard",
+      "label": "Fire",
+      "title": "Red Flag Warning Thu 6 AM–Sat 8 PM: Santa Ana + low RH across most LA/Ventura",
+      "href": "https://www.weather.gov/lox/",
+      "meta": "Gusts 45–55 mph · avoid sparks · plan for outages"
+    },
+    {
+      "tag": "hazard",
+      "label": "Wind",
+      "title": "Wind Advisory thru Fri 8 PM: Ventura valleys NE 20–30 mph, gusts 35–55",
+      "href": "https://www.weather.gov/lox/",
+      "meta": "Caution on drive to Dodger Stadium"
+    },
+    {
+      "tag": "money",
+      "label": "Local",
+      "title": "Ojai Day Sat Oct 17 · 10 AM–5 PM · Libbey Park + Ojai Ave",
+      "href": "https://www.ojaivalleynews.com/news/town-spirit-s-aflutter-for-upcoming-ojai-day-on-oct-17/article_ad53fa29-d1c8-4ffd-b0c0-6bb8eaf65953.html",
+      "meta": "Also: Oak View cold-case ID (36 yrs); espnW summit at OV Inn thru Oct 16"
+    }
+  ],
+  "local_note": "Game 4 moved to 5 PM PT — leave ~2:30. Jessie call window 11–1. Red Flag through Sat. GBP transfer reminder Fri Oct 16. Ojai Day Sat Oct 17.",
+  "labels_applied": {
+    "Action": 0,
+    "Waiting": 1,
+    "Finance": 5,
+    "Receipts": 3,
+    "Done": 0
+  },
+  "calendar_highlight": "Jessie call window 11–1; Dodgers NLCS G4 now 5 PM PT (leave ~2:30)"
+}

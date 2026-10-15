@@ -1,0 +1,59 @@
+{
+  "date_label": "Wednesday, Oct 14",
+  "published": "~8:20 AM PT",
+  "weather_card": {
+    "title": "Ojai \u00b7 83\u00b0 sunny",
+    "sub": "Clear tonight ~56\u00b0 \u00b7 ~91\u00b0 Thu \u00b7 Red Flag Thu\u2013Fri"
+  },
+  "quote": {
+    "text": "Do what you can, with what you have, where you are.",
+    "attr": "\u2014 Theodore Roosevelt"
+  },
+  "look_forward": "<strong>Thursday is Dodger Stadium \u2014 and Saturday is Ojai Day.</strong> Sunny ~83\u00b0 today, ~91\u00b0 Thu with Santa Ana winds (Red Flag Thu 6 AM\u2013Fri 10 PM). NLCS Game 4 vs Brewers Thu 6 PM \u2014 leave Ojai ~3:30. Ojai Day Sat Oct 17, 10 AM\u20135 PM on Ojai Ave (176 booths + Libbey Park).",
+  "signal": [
+    {
+      "tag": "fyi",
+      "label": "Pack",
+      "title": "Today\u2019s Signal pack wasn\u2019t received (latest on file dated Mon Oct 12)",
+      "href": "",
+      "meta": "Items below re-checked by board run only"
+    },
+    {
+      "tag": "outage",
+      "label": "Wx",
+      "title": "Ojai: sunny ~83\u00b0 today; clear ~56\u00b0 tonight; ~91\u00b0 Thu with NE breeze",
+      "href": "https://forecast.weather.gov/MapClick.php?lat=34.448&lon=-119.242",
+      "meta": "NWS point forecast \u00b7 dry and warming into the weekend"
+    },
+    {
+      "tag": "hazard",
+      "label": "Fire",
+      "title": "Red Flag Warning Thu 6 AM\u2013Fri 10 PM: Santa Ana winds + low RH across LA/Ventura",
+      "href": "https://www.weather.gov/lox/",
+      "meta": "Gusts 40\u201370 mph mountains \u00b7 avoid sparks \u00b7 plan for outages"
+    },
+    {
+      "tag": "hazard",
+      "label": "Coast",
+      "title": "Ventura County Beaches: Beach Hazards Statement through Thu afternoon",
+      "href": "https://www.weather.gov/lox/",
+      "meta": "Minor tidal overflow + rip currents \u00b7 skip water/jetties"
+    },
+    {
+      "tag": "money",
+      "label": "Local",
+      "title": "Ojai Day Sat Oct 17 \u00b7 10 AM\u20135 PM \u00b7 176 booths on Ojai Ave + Libbey Park",
+      "href": "https://www.ojaivalleynews.com/news/town-spirit-s-aflutter-for-upcoming-ojai-day-on-oct-17/article_ad53fa29-d1c8-4ffd-b0c0-6bb8eaf65953.html",
+      "meta": "Chumash blessing, kids zone, Humane Society Dog Day Out debut"
+    }
+  ],
+  "local_note": "Red Flag Thu\u2013Fri (Santa Ana). Beach Hazards through Thu afternoon. Krewflo Intro Call with Tonya today 4\u20135 PM. Dodgers NLCS Game 4 Thu 6 PM (leave ~3:30). Ojai Day Sat Oct 17.",
+  "labels_applied": {
+    "Action": 1,
+    "Waiting": 0,
+    "Finance": 3,
+    "Receipts": 2,
+    "Done": 0
+  },
+  "calendar_highlight": "Krewflo Intro Call Tonya 4\u20135 PM; Dodgers Thu 6 PM"
+}
