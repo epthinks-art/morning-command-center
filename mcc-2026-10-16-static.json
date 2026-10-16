@@ -1,0 +1,61 @@
+{
+  "date_label": "Friday, Oct 16",
+  "published": "~8:35 AM PT",
+  "weather_card": {
+    "title": "Ojai \u00b7 97\u00b0 hot & breezy",
+    "sub": "Clear ~65\u00b0 tonight \u00b7 ~94\u00b0 Sat \u00b7 Red Flag thru Sat 8 PM"
+  },
+  "quote": {
+    "text": "Do what you can, with what you have, where you are.",
+    "attr": "\u2014 Theodore Roosevelt"
+  },
+  "look_forward": "<strong>Ojai Day tomorrow \u2014 downtown all day.</strong> Sat Oct 17, roughly 9/10 AM\u20134/5 PM at Libbey Park + Ojai Ave. Hot (~94\u00b0) + Red Flag still on. Jessie Morning Coffee is Nov 18 at Soule Park.",
+  "signal": [
+    {
+      "tag": "fyi",
+      "label": "Pack",
+      "title": "Today\u2019s Signal pack wasn\u2019t received (latest on file dated Mon Oct 12)",
+      "href": "",
+      "meta": "Items below re-checked by board run only"
+    },
+    {
+      "tag": "outage",
+      "label": "Wx",
+      "title": "Ojai: sunny/hot ~97\u00b0 today; breezy ENE ~25 (gusts ~40); clear ~65\u00b0 tonight; ~94\u00b0 Sat",
+      "href": "https://forecast.weather.gov/MapClick.php?lat=34.448&lon=-119.242",
+      "meta": "NWS point forecast \u00b7 Santa Ana \u00b7 RH ~16%"
+    },
+    {
+      "tag": "hazard",
+      "label": "Fire",
+      "title": "Red Flag Warning thru Sat 8 PM: Santa Ana + low RH across most LA/Ventura",
+      "href": "https://www.weather.gov/lox/",
+      "meta": "Avoid sparks \u00b7 plan for outages"
+    },
+    {
+      "tag": "hazard",
+      "label": "Heat",
+      "title": "Heat peaking today; Wind Advisory / High Wind nearby mountains",
+      "href": "https://www.weather.gov/lox/",
+      "meta": "Hydrate \u00b7 caution driving"
+    },
+    {
+      "tag": "money",
+      "label": "Local",
+      "title": "Ojai Day Sat Oct 17 \u00b7 Libbey Park / Ojai Ave",
+      "href": "https://ojaivalleychamber.org/events/ojai-day-2026/",
+      "meta": "OVN: Rocio Mariposa poster winner"
+    }
+  ],
+  "local_note": "GBP transfer reminder today ~10:23 AM. Jessie call window missed Thu \u2014 nudge drafted. Ojai Day Sat. Red Flag thru Sat 8 PM. Dental forms Done.",
+  "labels_applied": {
+    "Action": 0,
+    "Waiting": 0,
+    "Finance": 3,
+    "Receipts": 1,
+    "Done": 2
+  },
+  "calendar_highlight": "GBP transfer reminder ~10:23 AM; open day otherwise; Ojai Day Sat",
+  "nudge_drafts": 1,
+  "nudge_note": "Jessie Hawkins Quick Favor chase draft in master Gmail drafts (not sent)"
+}
